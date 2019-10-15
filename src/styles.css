@@ -1,0 +1,62 @@
+#app {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+#nic {
+  color: rgba(0, 0, 0, 0.5);
+}
+label {
+  font-size: 0.9rem !important;
+  width: 5rem;
+  display: block;
+}
+.results {
+  width: 100%;
+}
+input[type="number"] {
+  max-width: 4rem;
+  text-align: center;
+}
+.flavor-group {
+  margin-bottom: 0.6rem;
+}
+.flavor-group input[type="number"] {
+  width: 4rem;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.flavorName {
+  width: 70%;
+  margin-right: 0.75rem;
+}
+
+.flavorPercentage {
+  width: 15%;
+}
+
+.btn_delete-flavor {
+  text-align: left;
+  z-index: 10;
+  padding-bottom: 0.55rem;
+  color: rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+}
+
+.btn_delete-flavor svg,
+.btn_delete-flavor svg path {
+  z-index: 1;
+}
+
+.btn_delete-flavor:hover {
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.btn_delete-flavor:hover {
+  border-color: rgba(255, 0, 0, 0.5);
+  background: rgba(255, 0, 0, 0.1);
+}
